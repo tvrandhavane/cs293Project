@@ -1,0 +1,2 @@
+
+ recorder record.cpp libportaudio.a -lrt -lasound -lpthread `pkg-config --libs sndfile`

@@ -1,0 +1,12 @@
+INPUT FOLDER
+input 
+
+HOW TO RUN THE CODE
+g++ -o blocks block.cpp finalCode.cpp complex.cpp
+./blocks
+input/filename.wav
+
+COMMAND TO RECORD SOUND
+g++ -o rec record.cpp libportaudio.a -lportaudio -lrt -lasound -lpthread -lsndfile
+./rec
+Note- speak when "=== Now recording!! Please speak into the microphone. ==="
